@@ -1,5 +1,6 @@
 
 const input = document.getElementById("input");
+input.readOnly = true;
 const prev = document.getElementById("prev");
 let replaceLast = false;
 let replaceAll = false;
