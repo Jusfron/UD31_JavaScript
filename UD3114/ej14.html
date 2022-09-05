@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script src="ej14script.js" defer></script>
+    <title>Ejercicio 14</title>
+    <link rel="stylesheet" href="ej14estilo.css">
+</head>
+<body>
+    <noscript>
+        <p>Sorry your browser does not support JavaScript</p>
+    </noscript>
+
+    <div id="calculadora">
+        <label id="prev">&nbsp;</label>
+        <input id="input" type="text" value="0">
+        <div class="fila1">
+            <button id="retr" onclick="retr()">Retr</button>
+            <button id="ce" onclick="ce()">CE</button>
+            <button id="c" onclick="c()">C</button>
+        </div>
+        <div class="fila">
+            <button id="7" onclick="num(this.innerText)">7</button>
+            <button id="8" onclick="num(this.innerText)">8</button>
+            <button id="9" onclick="num(this.innerText)">9</button>
+            <button id="/" onclick="signoOperacion(this.innerText)">/</button>
+            <button id="raiz" onclick="raiz()">Raiz</button>
+        </div>
+        <div class="fila">
+            <button id="4" onclick="num(this.innerText)">4</button>
+            <button id="5" onclick="num(this.innerText)">5</button>
+            <button id="6" onclick="num(this.innerText)">6</button>
+            <button id="*" onclick="signoOperacion(this.innerText)">*</button>
+            <button id="%" onclick="signoOperacion(this.innerText)">%</button>
+        </div>
+        <div class="fila">
+            <button id="1" onclick="num(this.innerText)">1</button>
+            <button id="2" onclick="num(this.innerText)">2</button>
+            <button id="3" onclick="num(this.innerText)">3</button>
+            <button id="-" onclick="signoOperacion(this.innerText)">-</button>
+            <button id="1/x" onclick="inv()">1/x</button>
+        </div>
+        <div class="fila">
+            <button id="0" onclick="num(this.innerText)">0</button>
+            <button id="+/-" onclick="sign()">+/-</button>
+            <button id="." onclick="dot()">.</button>
+            <button id="+" onclick="signoOperacion(this.innerText)">+</button>
+            <button id="=" onclick="eq()">=</button>
+        </div>
+        
+        
+            
+            
+            
+    </div>
+    
+</body>
+</html>

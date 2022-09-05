@@ -1,0 +1,41 @@
+#calculadora {
+    background: rgb(246, 248, 216);
+    border: 2px solid blue;
+    width: 220px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.fila1 {
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    margin: 5px;
+}
+
+button {
+    border-style: solid;
+    text-align: center;
+    color: inherit;
+    margin: 5px;
+    width: 100%;
+    border-color: rgb(189, 189, 189);
+}
+
+#prev {
+    text-align: right;
+    color: lightgray;
+    display: block;
+}
+
+#input {
+    width: 100%;
+    text-align: right;
+    border: solid black;
+}
